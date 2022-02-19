@@ -1,8 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import  mongoose  from 'mongoose';
-import './db/connection.js';
-import './models/mainModel.js'
+import '../db/connection.js';
+import '../models/mainModel.js'
 import bodyParser from 'body-parser';
 
 //  all collections
