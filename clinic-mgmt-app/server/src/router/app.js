@@ -1,9 +1,12 @@
 import express from 'express';
+import dotenv from 'dotenv';
 import cors from 'cors';
 import  mongoose  from 'mongoose';
-import '../db/connection.js';
+import '../config/connection.js';
 import '../models/mainModel.js'
 import bodyParser from 'body-parser';
+import log from '../config/logger.js';
+
 
 //  all collections
 const Doctor = mongoose.model("doctors");
@@ -20,84 +23,64 @@ app.use(bodyParser.json());
 
 
 app.get('/', (req, res) => {
-  res.send("Hello World");
+  res.send("Welcome to the CLINIC MANAGEMENT SYSTEM");
 });
 
+/* GET all the doctor data */
 app.get('/doctors', (req, res) => {
   console.log("connected to doctors")
     Doctor.find({}, function (err, docs) {
-            res.json(docs);     
+            res.json(docs);
+            log.info("searched for all the doctor");     
     });
 });
 
-app.get('/appointments', (req, res) => {
-  Appointments.find({}, function (err, docs) {
-          res.json(docs); 
-  });
-});
-
-app.get('/patientHistory', (req, res) => {
-  PatientHistory.find({}, function (err, docs) {
-          res.json(docs);  
-  });
-});
-
-app.get('/patients', (req, res) => {
-  Patients.find({}, function (err, docs) {
-          res.json(docs);   
-  });
-});
-
-app.get('/specialities', (req, res) => {
-  Specialities.find({}, function (err, docs) {
-          res.json(docs);   
-  });
-});
-
-app.get('/timeSlot', (req, res) => {
-  TimeSlot.find({}, function (err, docs) {
-          res.json(docs);
-      
-  });
-});
-
-// doctor operation - search, add, update, delete
+/* GET doctors data by name */
 app.get('/doctors/name/:name', (req, res) => {
   const dName = req.params.name;
   Doctor.find({name:dName}, function (err, docs) {
           res.json(docs);
-      
-  });
-});
-app.get('/doctors/qualification/:qualification', (req, res) => {
-  const dQualification = req.params.qualification;
-  Doctor.find({qualification:dQualification}, function (err, docs) {
-          res.json(docs);
+          log.info("searched  the doctor by name");
   });
 });
 
+/* GET doctors data by speciality */
+app.get('/doctors/search/speciality/:speciality', (req, res,) => {
+  const dSpeciality = req.params.speciality;
+  Doctors.find({speciality:dSpeciality}, function (err, docs) {
+          res.json(docs);
+          log.info(`searched the doctors by its speciality`);  
+  });
+});
+
+/* add a new doctors in database */
 app.post('/doctors/add',(req,res) => {  
   Doctor.create(req.body,req.params.body).then((ans) => {
-      console.log("New Doctor Inserted")
+      console.log("New Doctor Inserted");
+      log.info("Inserted new doctor");
       res.status(200).send({msg:"Doctor added successfully"});
     }).catch((err) => {
       console.log(err.Message);
     });
 });
 
+/* update doctors data by id */
 app.post('/doctors/update/:id',(req,res) => {  
   Doctor.findByIdAndUpdate(req.params.id,req.body)
     .then((ans) => {
-      console.log(" Doctor updated")
+      console.log(" Doctor updated");
+      log.info("Update the doctor information");
       res.status(200).send({msg:"Doctor updated successfully"});
     }).catch((err) => {
       console.log(err.Message);
     });
 });
 
+/* delete doctors data by id */
 app.post('/doctors/delete/:id',(req,res) => {
   Doctor.findByIdAndDelete(req.params.id).then((ans) => {
-      console.log("one doctor deleted")
+      console.log("one doctor deleted");
+      log.info("One doctor deleted by name");
       res.status(200).send({msg:"Doctor removed successfully"});
     }).catch((err) => {
       console.log(err.Message);

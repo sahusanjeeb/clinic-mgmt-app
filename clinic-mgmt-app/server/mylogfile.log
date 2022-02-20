@@ -1,0 +1,68 @@
+12:51:58.221 INFO  connected to the mongodb 
+12:59:44.935 INFO  connected to the mongodb 
+12:59:53.833 INFO  connected to the mongodb 
+12:59:58.424 INFO  connected to the mongodb 
+13:01:29.198 INFO  connected to the mongodb 
+13:04:32.137 INFO  connected to the mongodb 
+13:06:59.219 INFO  connected to the mongodb 
+13:07:29.812 INFO  connected to the mongodb 
+14:21:53.268 INFO  connected to the mongodb 
+14:22:23.508 INFO  connected to the mongodb 
+14:34:22.124 INFO  connected to the mongodb 
+14:34:26.417 INFO  connected to the mongodb 
+14:34:28.205 INFO  connected to the mongodb 
+14:34:39.021 INFO  connected to the mongodb 
+14:34:46.886 INFO  connected to the mongodb 
+14:35:38.091 INFO  connected to the mongodb 
+14:35:57.426 INFO  querySrv ENOTFOUND _mongodb._tcp.cluster0.nglsh.mongod.net 
+14:39:53.844 INFO  querySrv ENOTFOUND _mongodb._tcp.cluster0.nglsh.mongod.net 
+14:40:11.863 INFO  querySrv ENOTFOUND _mongodb._tcp.cluster0.nglsh.mongod.net 
+14:41:18.693 INFO  querySrv ENOTFOUND _mongodb._tcp.cluster0.nglsh.mongod.net 
+14:43:36.571 INFO  querySrv ENOTFOUND _mongodb._tcp.cluster0.nglsh.mongod.net 
+14:43:41.945 INFO  querySrv ENOTFOUND _mongodb._tcp.cluster0.nglsh.mongod.net 
+14:47:38.110 INFO  connected to the mongodb 
+14:48:41.984 INFO  connected to the mongodb 
+14:48:53.148 INFO  connected to the mongodb 
+14:49:43.640 INFO  connect ETIMEDOUT 15.206.44.96:27017 
+14:54:57.030 INFO  connected to the mongodb 
+14:55:04.631 INFO  connected to the mongodb 
+14:55:08.405 INFO  connected to the mongodb 
+14:55:23.292 INFO  connected to the mongodb 
+14:55:40.851 INFO  connected to the mongodb 
+14:55:43.546 INFO  connected to the mongodb 
+14:56:07.301 INFO  connected to the mongodb 
+14:56:13.241 INFO  connected to the mongodb 
+14:56:15.100 INFO  connected to the mongodb 
+14:56:33.309 INFO  connected to the mongodb 
+14:56:49.448 INFO  connected to the mongodb 
+14:56:55.532 INFO  connected to the mongodb 
+14:57:05.759 INFO  connected to the mongodb 
+14:57:16.745 INFO  connected to the mongodb 
+14:57:24.962 INFO  connected to the mongodb 
+14:57:55.855 INFO  connected to the mongodb 
+14:57:59.608 INFO  connected to the mongodb 
+14:58:11.965 INFO  connected to the mongodb 
+14:58:31.053 INFO  connected to the mongodb 
+14:58:44.076 INFO  connected to the mongodb 
+14:58:57.681 INFO  connected to the mongodb 
+14:59:07.238 INFO  connected to the mongodb 
+14:59:19.314 INFO  connected to the mongodb 
+14:59:32.693 INFO  connected to the mongodb 
+15:00:02.034 INFO  connected to the mongodb 
+15:02:31.121 INFO  connected to the mongodb 
+15:02:34.397 INFO  connected to the mongodb 
+15:02:40.174 INFO  connected to the mongodb 
+15:02:43.937 INFO  connected to the mongodb 
+15:11:49.833 INFO  connected to the mongodb 
+15:23:18.869 INFO  connected to the mongodb 
+16:27:58.270 INFO  connected to the mongodb 
+16:28:53.145 INFO  connected to the mongodb 
+16:31:07.487 INFO  connected to the mongodb 
+16:37:02.409 INFO  connected to the mongodb 
+16:37:19.208 INFO  searched  the doctor by name 
+16:37:23.705 INFO  searched  the doctor by name 
+16:42:04.592 INFO  Inserted new doctor 
+16:45:48.602 INFO  One doctor deleted by name 
+16:48:49.753 INFO  Update the doctor information 
+16:49:50.025 INFO  searched for all the doctor 
+16:54:56.834 INFO  connect ETIMEDOUT 15.206.44.96:27017 
