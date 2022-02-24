@@ -1,3 +1,3 @@
 import app from './router/app.js'
 
-app.listen(3000, ()=>{ console.log("server is running"); })
+app.listen(4000, ()=>{ console.log("server is running"); })

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import { Route, Routes } from "react-router";
 import './App.css';
+import NavBar from './components/Navbar';
+import NoPageFound from "./components/NoPageFound";
+import SearchDoctorContainer from "./components/SearchDoctorContainer";
+import store from "./store/myStore";
+import { Provider } from 'react-redux';
+import AddDoctorContainer from "./components/AddDoctorContainer";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Routes>
+        <Route path="/doctors/search" element={<SearchDoctorContainer />} />
+        <Route path="/doctors/add" element={<AddDoctorContainer mode="add" />} />
+        <Route path="/doctors/edit" element={<AddDoctorContainer mode="edit" />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NoPageFound />} />
+      </Routes>
+    </Provider>
+
   );
-}
+};
+
 
 export default App;

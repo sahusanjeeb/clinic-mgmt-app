@@ -1,5 +1,4 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import cors from 'cors';
 import  mongoose  from 'mongoose';
 import '../config/connection.js';
@@ -27,8 +26,7 @@ app.get('/', (req, res) => {
 });
 
 /* GET all the doctor data */
-app.get('/doctors', (req, res) => {
-  console.log("connected to doctors")
+app.get('/doctors/search', (req, res) => {
     Doctor.find({}, function (err, docs) {
             res.json(docs);
             log.info("searched for all the doctor");     
@@ -36,56 +34,72 @@ app.get('/doctors', (req, res) => {
 });
 
 /* GET doctors data by name */
-app.get('/doctors/name/:name', (req, res) => {
+app.get('/doctors/search/name/:name', (req, res) => {
+  log.info(`obtain request for searching a doctor by its name ${req.params.name}`)
   const dName = req.params.name;
   Doctor.find({name:dName}, function (err, docs) {
           res.json(docs);
-          log.info("searched  the doctor by name");
   });
 });
 
 /* GET doctors data by speciality */
 app.get('/doctors/search/speciality/:speciality', (req, res,) => {
+  log.info(`obtain request for searching a doctor by its name ${req.params.name}`)
   const dSpeciality = req.params.speciality;
-  Doctors.find({speciality:dSpeciality}, function (err, docs) {
+  Doctor.find({speciality:dSpeciality}, function (err, docs) {
           res.json(docs);
-          log.info(`searched the doctors by its speciality`);  
   });
 });
 
 /* add a new doctors in database */
 app.post('/doctors/add',(req,res) => {  
-  Doctor.create(req.body,req.params.body).then((ans) => {
-      console.log("New Doctor Inserted");
-      log.info("Inserted new doctor");
+  log.info(`obtain request for adding a doctor ${req.body.name}`)
+  Doctor.create(req.body).then((doc) => {
       res.status(200).send({msg:"Doctor added successfully"});
+      log.info(`a new doctor is added to the database with ID ${doc._id}`) 
     }).catch((err) => {
-      console.log(err.Message);
+      log.error(err);
     });
 });
 
-/* update doctors data by id */
-app.post('/doctors/update/:id',(req,res) => {  
+/* EDIT doctors data by id */
+app.post('/doctors/edit/:id',(req,res) => {  
+  log.info(`obtain request for deleting a doctor by its ID ${req.body}`)
   Doctor.findByIdAndUpdate(req.params.id,req.body)
-    .then((ans) => {
-      console.log(" Doctor updated");
+    .then((doc) => {
       log.info("Update the doctor information");
       res.status(200).send({msg:"Doctor updated successfully"});
+      log.info(`one doctor info is updated to the database with ID ${doc._id}`) 
     }).catch((err) => {
-      console.log(err.Message);
+      log.error(err);
     });
+});
+
+/* delete doctors data by doctor number */
+app.get('/doctors/delete/:doctorNumber', (req, res,) => {
+  log.info(`obtain request for deleting a doctor ${req.params.doctorNumber}`)
+  Doctor.deleteOne({doctorNumber:req.params.doctorNumber}).then((ans) => {
+    log.info("one doctor deleted")
+    res.status(200).send({msg:"Doctor removed successfully"});
+    log.info(`doctor deleted by its name`)
+  }).catch((err) => {
+    console.log(err.Message);
+    res.status(400).send({msg:"Doctor doesn't exist to remove"});
+  
+  });
 });
 
 /* delete doctors data by id */
-app.post('/doctors/delete/:id',(req,res) => {
-  Doctor.findByIdAndDelete(req.params.id).then((ans) => {
-      console.log("one doctor deleted");
-      log.info("One doctor deleted by name");
-      res.status(200).send({msg:"Doctor removed successfully"});
-    }).catch((err) => {
-      console.log(err.Message);
-    });
-});
+// app.post('/doctors/delete/:id',(req,res) => {
+//   log.info(`obtain request for deleting a doctor by its ID ${req.params.id}`)
+//   Doctor.findByIdAndDelete(req.params.id).then((doc) => {
+//     log.info(`one doctor is deleted to the database with ID ${doc._id}`) 
+//       log.info("One doctor deleted by id");
+//       res.status(200).send({msg:"Doctor removed successfully"});
+//     }).catch((err) => {
+//       res.status(400).send({msg:"Doctor with the id doesn't exist"});
+//     });
+// });
 
 
 

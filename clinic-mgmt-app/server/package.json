@@ -5,8 +5,8 @@
   "main": "./src/Server.js",
   "type": "module",
   "scripts": {
-    "start": "node Server.js",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "start": "node ./src/Server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest --coverage.js"
   },
   "keywords": [],
   "author": "",

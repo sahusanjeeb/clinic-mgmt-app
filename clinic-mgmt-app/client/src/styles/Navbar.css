@@ -1,0 +1,12 @@
+NavLink{
+    text-decoration: none;
+    background-color: #0775C0 ;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+.active{
+  background-color: rgb(58, 88, 172);
+  color: #f3f3f3;
+}

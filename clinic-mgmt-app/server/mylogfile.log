@@ -66,3 +66,386 @@
 16:48:49.753 INFO  Update the doctor information 
 16:49:50.025 INFO  searched for all the doctor 
 16:54:56.834 INFO  connect ETIMEDOUT 15.206.44.96:27017 
+22:15:31.991 INFO  connected to the mongodb 
+22:19:46.639 INFO  connected to the mongodb 
+22:20:14.035 INFO  connected to the mongodb 
+22:23:40.974 INFO  connected to the mongodb 
+22:23:46.001 INFO  searched the doctors by its speciality 
+22:23:55.299 INFO  searched the doctors by its speciality 
+22:24:31.103 INFO  searched the doctors by its speciality 
+22:24:34.697 INFO  searched the doctors by its speciality 
+22:25:26.995 INFO  searched the doctors by its speciality 
+11:16:49.636 INFO  connected to the mongodb 
+11:53:01.774 INFO  searched the doctors by its speciality 
+11:53:02.080 INFO  searched the doctors by its speciality 
+11:53:02.263 INFO  searched the doctors by its speciality 
+11:53:02.429 INFO  searched the doctors by its speciality 
+11:53:02.610 INFO  searched the doctors by its speciality 
+11:53:02.743 INFO  searched the doctors by its speciality 
+11:53:02.969 INFO  searched the doctors by its speciality 
+11:53:08.685 INFO  searched the doctors by its speciality 
+11:53:15.335 INFO  searched the doctors by its speciality 
+11:53:19.398 INFO  searched the doctors by its speciality 
+11:56:45.909 INFO  searched the doctors by its speciality 
+11:56:46.491 INFO  searched the doctors by its speciality 
+11:56:46.660 INFO  searched the doctors by its speciality 
+11:56:46.844 INFO  searched the doctors by its speciality 
+11:56:49.628 INFO  searched the doctors by its speciality 
+11:56:49.738 INFO  searched the doctors by its speciality 
+12:07:56.390 INFO  searched the doctors by its speciality 
+12:08:04.802 INFO  searched the doctors by its speciality 
+12:08:17.623 INFO  searched the doctors by its speciality 
+12:13:29.479 INFO  connected to the mongodb 
+12:15:45.513 INFO  connected to the mongodb 
+12:15:54.635 INFO  connected to the mongodb 
+12:16:05.741 INFO  connected to the mongodb 
+13:56:25.931 INFO  connected to the mongodb 
+14:05:14.527 INFO  connected to the mongodb 
+14:09:18.582 INFO  searched the doctors by its speciality 
+14:09:23.664 INFO  searched the doctors by its speciality 
+14:09:26.726 INFO  searched the doctors by its speciality 
+14:09:29.652 INFO  searched the doctors by its speciality 
+17:14:15.289 INFO  connected to the mongodb 
+10:28:57.675 INFO  connected to the mongodb 
+10:29:59.021 INFO  connected to the mongodb 
+10:31:09.377 INFO  connected to the mongodb 
+11:56:41.894 INFO  connected to the mongodb 
+12:00:39.735 INFO  connected to the mongodb 
+12:02:27.091 INFO  connected to the mongodb 
+12:04:22.742 INFO  connected to the mongodb 
+16:56:05.845 INFO  connected to the mongodb 
+17:13:46.885 INFO  searched the doctors by its speciality 
+17:13:47.440 INFO  searched the doctors by its speciality 
+17:13:47.669 INFO  searched the doctors by its speciality 
+17:13:47.889 INFO  searched the doctors by its speciality 
+17:13:48.073 INFO  searched the doctors by its speciality 
+17:13:48.305 INFO  searched the doctors by its speciality 
+17:13:48.510 INFO  searched the doctors by its speciality 
+17:13:48.722 INFO  searched the doctors by its speciality 
+17:13:48.963 INFO  searched the doctors by its speciality 
+17:13:49.170 INFO  searched the doctors by its speciality 
+17:13:51.454 INFO  searched the doctors by its speciality 
+17:16:15.728 INFO  connected to the mongodb 
+17:17:33.620 INFO  searched the doctors by its speciality 
+17:17:35.207 INFO  searched the doctors by its speciality 
+17:19:12.262 INFO  searched the doctors by its speciality 
+17:19:19.544 INFO  searched the doctors by its speciality 
+17:19:24.216 INFO  searched the doctors by its speciality 
+17:19:45.349 INFO  searched the doctors by its speciality 
+17:19:51.401 INFO  searched the doctors by its speciality 
+17:19:54.911 INFO  searched the doctors by its speciality 
+17:20:14.054 INFO  searched the doctors by its speciality 
+17:20:18.546 INFO  searched the doctors by its speciality 
+17:20:27.609 INFO  searched the doctors by its speciality 
+17:24:24.986 INFO  searched the doctors by its speciality 
+17:24:29.510 INFO  searched the doctors by its speciality 
+17:24:38.324 INFO  searched the doctors by its speciality 
+17:43:14.761 INFO  searched the doctors by its speciality 
+17:45:44.679 INFO  searched the doctors by its speciality 
+17:45:48.480 INFO  searched the doctors by its speciality 
+17:45:49.551 INFO  searched the doctors by its speciality 
+17:45:51.592 INFO  searched the doctors by its speciality 
+19:46:11.581 INFO  connected to the mongodb 
+19:49:41.894 INFO  searched for all the doctor 
+19:50:20.464 INFO  connected to the mongodb 
+19:50:27.784 INFO  connected to the mongodb 
+19:50:36.000 INFO  searched for all the doctor 
+19:53:47.457 INFO  obtain request for searching a doctor by its name dr ram 
+19:59:46.278 INFO  connected to the mongodb 
+20:02:56.349 INFO  obtain request for adding a doctor dr sagar 
+20:02:56.468 INFO  a new doctor is added to the database with ID 6214f418392965cbac9e2784 
+20:05:08.534 INFO  Update the doctor information 
+20:05:08.535 INFO  one doctor info is updated to the database with ID 620f4a4d3c29e3dad4cf74ff 
+20:06:50.979 INFO  obtain request for deleting a doctor by its ID 6214f418392965cbac9e2784 
+20:06:51.075 INFO  one doctor is deleted to the database with ID 6214f418392965cbac9e2784 
+20:06:51.075 INFO  One doctor deleted by id 
+20:20:40.238 INFO  connected to the mongodb 
+20:21:01.396 INFO  connected to the mongodb 
+20:23:17.568 INFO  connected to the mongodb 
+20:37:37.199 INFO  obtain request for searching a doctor by its name undefined 
+20:37:50.077 INFO  obtain request for searching a doctor by its name undefined 
+20:37:50.724 INFO  obtain request for searching a doctor by its name undefined 
+20:45:52.876 INFO  obtain request for searching a doctor by its name undefined 
+20:45:59.791 INFO  obtain request for searching a doctor by its name undefined 
+20:46:02.737 INFO  obtain request for searching a doctor by its name undefined 
+20:46:55.067 INFO  obtain request for adding a doctor dr disel 
+20:46:55.208 INFO  a new doctor is added to the database with ID 6214fe67d3b658617e975f35 
+20:48:11.044 INFO  obtain request for searching a doctor by its name undefined 
+20:48:15.661 INFO  obtain request for deleting a doctor 9 
+21:35:31.303 INFO  connected to the mongodb 
+21:39:37.645 INFO  obtain request for searching a doctor by its name undefined 
+21:39:41.639 INFO  obtain request for searching a doctor by its name undefined 
+21:40:02.030 INFO  obtain request for adding a doctor dr rajesh 
+21:40:02.042 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+21:40:02.059 INFO  obtain request for adding a doctor dr rajesh 
+21:40:02.063 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+21:40:04.290 INFO  obtain request for adding a doctor dr rajesh 
+21:40:04.293 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+21:40:09.908 INFO  obtain request for adding a doctor dr rajesh 
+21:40:09.910 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+21:40:15.828 INFO  obtain request for adding a doctor dr rajesh 
+21:40:15.932 INFO  a new doctor is added to the database with ID 62150ae780df49792a0e5d61 
+21:40:21.900 INFO  obtain request for adding a doctor dr rajesh 
+21:40:22.030 INFO  a new doctor is added to the database with ID 62150aed80df49792a0e5d63 
+21:40:23.056 INFO  obtain request for adding a doctor dr rajesh 
+21:40:23.179 INFO  a new doctor is added to the database with ID 62150aef80df49792a0e5d65 
+21:49:28.961 INFO  obtain request for searching a doctor by its name undefined 
+21:49:47.447 INFO  obtain request for deleting a doctor by its ID [object Object] 
+21:49:47.545 INFO  Update the doctor information 
+21:49:47.545 INFO  one doctor info is updated to the database with ID 620f4a4d3c29e3dad4cf74fd 
+21:49:53.612 INFO  obtain request for deleting a doctor by its ID [object Object] 
+21:49:53.703 INFO  Update the doctor information 
+21:49:53.704 INFO  one doctor info is updated to the database with ID 620f4a4d3c29e3dad4cf74fd 
+21:50:12.296 INFO  obtain request for deleting a doctor by its ID [object Object] 
+21:50:12.491 INFO  Update the doctor information 
+21:50:12.491 INFO  one doctor info is updated to the database with ID 620f4a4d3c29e3dad4cf74fd 
+21:50:30.771 INFO  obtain request for deleting a doctor by its ID [object Object] 
+21:50:30.870 INFO  Update the doctor information 
+21:50:30.870 INFO  one doctor info is updated to the database with ID 620f4a4d3c29e3dad4cf74fd 
+21:50:59.405 INFO  obtain request for deleting a doctor by its ID [object Object] 
+21:50:59.520 INFO  Update the doctor information 
+21:50:59.521 INFO  one doctor info is updated to the database with ID 620f4a4d3c29e3dad4cf74fd 
+22:18:43.350 INFO  connected to the mongodb 
+22:19:44.294 INFO  connected to the mongodb 
+10:44:06.467 INFO  obtain request for adding a doctor undefined 
+10:44:06.535 ERROR doctors validation failed: speciality: Path `speciality` is required., qualification: Path `qualification` is required., name: Path `name` is required., doctorNumber: Path `doctorNumber` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality"},"kind":"required","path":"speciality"},"qualification":{"name":"ValidatorError","message":"Path `qualification` is required.","properties":{"message":"Path `qualification` is required.","type":"required","path":"qualification"},"kind":"required","path":"qualification"},"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name"},"kind":"required","path":"name"},"doctorNumber":{"name":"ValidatorError","message":"Path `doctorNumber` is required.","properties":{"message":"Path `doctorNumber` is required.","type":"required","path":"doctorNumber"},"kind":"required","path":"doctorNumber"}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required., qualification: Path `qualification` is required., name: Path `name` is required., doctorNumber: Path `doctorNumber` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required., qualification: Path `qualification` is required., name: Path `name` is required., doctorNumber: Path `doctorNumber` is required.
+    at model.Object.<anonymous>.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+10:44:08.753 INFO  connected to the mongodb 
+10:53:05.126 INFO  obtain request for adding a doctor undefined 
+10:53:05.237 ERROR doctors validation failed: speciality: Path `speciality` is required., qualification: Path `qualification` is required., name: Path `name` is required., doctorNumber: Path `doctorNumber` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality"},"kind":"required","path":"speciality"},"qualification":{"name":"ValidatorError","message":"Path `qualification` is required.","properties":{"message":"Path `qualification` is required.","type":"required","path":"qualification"},"kind":"required","path":"qualification"},"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name"},"kind":"required","path":"name"},"doctorNumber":{"name":"ValidatorError","message":"Path `doctorNumber` is required.","properties":{"message":"Path `doctorNumber` is required.","type":"required","path":"doctorNumber"},"kind":"required","path":"doctorNumber"}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required., qualification: Path `qualification` is required., name: Path `name` is required., doctorNumber: Path `doctorNumber` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required., qualification: Path `qualification` is required., name: Path `name` is required., doctorNumber: Path `doctorNumber` is required.
+    at model.Object.<anonymous>.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+10:53:07.742 INFO  connected to the mongodb 
+11:36:17.880 INFO  connected to the mongodb 
+11:43:58.362 INFO  connected to the mongodb 
+11:47:12.009 INFO  obtain request for searching a doctor by its name undefined 
+11:47:21.158 INFO  obtain request for deleting a doctor 7 
+11:47:47.463 INFO  obtain request for searching a doctor by its name undefined 
+11:47:53.374 INFO  obtain request for deleting a doctor 7 
+12:08:10.626 INFO  obtain request for searching a doctor by its name undefined 
+12:08:36.412 INFO  obtain request for deleting a doctor 5 
+12:13:08.320 INFO  obtain request for searching a doctor by its name undefined 
+12:13:11.842 INFO  obtain request for deleting a doctor 7 
+12:15:57.982 INFO  connected to the mongodb 
+12:16:09.748 INFO  obtain request for searching a doctor by its name undefined 
+12:17:06.878 INFO  connected to the mongodb 
+12:17:19.424 INFO  obtain request for searching a doctor by its name undefined 
+12:17:22.368 INFO  obtain request for deleting a doctor 7 
+12:17:22.467 INFO  one doctor deleted 
+12:17:22.469 INFO  doctor deleted by its name 
+12:17:36.614 INFO  obtain request for searching a doctor by its name undefined 
+12:19:31.865 INFO  obtain request for searching a doctor by its name undefined 
+12:22:28.346 INFO  obtain request for searching a doctor by its name undefined 
+12:22:32.415 INFO  obtain request for searching a doctor by its name undefined 
+12:23:46.416 INFO  obtain request for searching a doctor by its name undefined 
+12:23:53.651 INFO  obtain request for searching a doctor by its name undefined 
+12:24:23.845 INFO  obtain request for searching a doctor by its name undefined 
+12:25:05.136 INFO  obtain request for searching a doctor by its name undefined 
+12:28:21.342 INFO  obtain request for deleting a doctor 10 
+12:28:21.441 INFO  one doctor deleted 
+12:28:21.442 INFO  doctor deleted by its name 
+12:31:10.945 INFO  obtain request for searching a doctor by its name undefined 
+12:31:25.339 INFO  obtain request for deleting a doctor 10 
+12:31:25.436 INFO  one doctor deleted 
+12:31:25.437 INFO  doctor deleted by its name 
+12:31:43.418 INFO  obtain request for searching a doctor by its name undefined 
+12:31:55.100 INFO  obtain request for searching a doctor by its name undefined 
+12:32:08.861 INFO  obtain request for searching a doctor by its name undefined 
+12:32:12.143 INFO  obtain request for searching a doctor by its name undefined 
+12:35:52.480 INFO  obtain request for searching a doctor by its name undefined 
+12:35:55.481 INFO  obtain request for searching a doctor by its name undefined 
+12:36:56.310 INFO  obtain request for searching a doctor by its name undefined 
+12:37:01.987 INFO  obtain request for searching a doctor by its name undefined 
+12:49:10.117 INFO  obtain request for searching a doctor by its name undefined 
+12:49:13.302 INFO  obtain request for searching a doctor by its name undefined 
+12:50:51.774 INFO  obtain request for searching a doctor by its name undefined 
+12:50:51.964 INFO  obtain request for searching a doctor by its name undefined 
+12:53:10.440 INFO  obtain request for searching a doctor by its name undefined 
+13:49:27.377 INFO  obtain request for searching a doctor by its name undefined 
+13:49:35.720 INFO  obtain request for searching a doctor by its name undefined 
+13:49:44.568 INFO  obtain request for searching a doctor by its name undefined 
+13:50:05.462 INFO  obtain request for searching a doctor by its name undefined 
+13:50:07.394 INFO  obtain request for searching a doctor by its name undefined 
+13:50:21.561 INFO  obtain request for searching a doctor by its name undefined 
+14:10:24.204 INFO  obtain request for searching a doctor by its name undefined 
+14:10:38.560 INFO  obtain request for deleting a doctor by its ID [object Object] 
+14:10:39.068 INFO  Update the doctor information 
+14:10:39.069 INFO  one doctor info is updated to the database with ID 620f4a4d3c29e3dad4cf74fd 
+14:11:19.648 INFO  obtain request for searching a doctor by its name undefined 
+14:11:25.214 INFO  obtain request for deleting a doctor 5 
+14:11:25.315 INFO  one doctor deleted 
+14:11:25.315 INFO  doctor deleted by its name 
+14:11:29.941 INFO  obtain request for searching a doctor by its name undefined 
+14:12:15.958 INFO  obtain request for adding a doctor dr alam 
+14:12:16.149 INFO  a new doctor is added to the database with ID 6215f367c0269a7fdb92a028 
+14:13:08.746 INFO  obtain request for searching a doctor by its name undefined 
+14:27:23.048 INFO  obtain request for adding a doctor dr atishi 
+14:27:23.208 INFO  a new doctor is added to the database with ID 6215f6f3c0269a7fdb92a02b 
+18:12:14.202 INFO  connected to the mongodb 
+18:18:23.186 INFO  obtain request for searching a doctor by its name undefined 
+18:18:32.680 INFO  obtain request for deleting a doctor by its ID [object Object] 
+18:18:32.797 INFO  Update the doctor information 
+18:18:32.798 INFO  one doctor info is updated to the database with ID 6215f367c0269a7fdb92a028 
+18:18:34.502 INFO  obtain request for deleting a doctor by its ID [object Object] 
+18:18:34.606 INFO  Update the doctor information 
+18:18:34.606 INFO  one doctor info is updated to the database with ID 6215f367c0269a7fdb92a028 
+19:30:50.608 INFO  connected to the mongodb 
+20:04:11.830 INFO  connected to the mongodb 
+20:07:41.673 INFO  obtain request for searching a doctor by its name undefined 
+20:07:47.727 INFO  obtain request for deleting a doctor 10 
+20:07:47.870 INFO  one doctor deleted 
+20:07:47.871 INFO  doctor deleted by its name 
+20:07:49.634 INFO  obtain request for searching a doctor by its name undefined 
+20:08:08.756 INFO  obtain request for adding a doctor dr suraj 
+20:08:08.782 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:08:10.690 INFO  obtain request for adding a doctor dr suraj 
+20:08:10.693 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:08:13.274 INFO  obtain request for adding a doctor dr suraj 
+20:08:13.276 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:08:19.092 INFO  obtain request for adding a doctor dr suraj 
+20:08:19.094 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:08:49.609 INFO  obtain request for searching a doctor by its name undefined 
+20:08:51.759 INFO  obtain request for searching a doctor by its name undefined 
+20:09:02.339 INFO  obtain request for deleting a doctor by its ID [object Object] 
+20:09:02.458 INFO  Update the doctor information 
+20:09:02.459 INFO  one doctor info is updated to the database with ID 6215f367c0269a7fdb92a028 
+20:09:03.624 INFO  obtain request for deleting a doctor by its ID [object Object] 
+20:09:03.768 INFO  Update the doctor information 
+20:09:03.768 INFO  one doctor info is updated to the database with ID 6215f367c0269a7fdb92a028 
+20:09:08.359 INFO  obtain request for searching a doctor by its name undefined 
+20:09:09.616 INFO  obtain request for searching a doctor by its name undefined 
+20:09:10.319 INFO  obtain request for searching a doctor by its name undefined 
+20:09:12.560 INFO  obtain request for searching a doctor by its name undefined 
+20:09:40.665 INFO  obtain request for searching a doctor by its name undefined 
+20:10:02.956 INFO  obtain request for adding a doctor dr ajit 
+20:10:02.959 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:10:13.964 INFO  obtain request for adding a doctor dr ajit 
+20:10:13.966 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:10:19.403 INFO  obtain request for adding a doctor dr ajit 
+20:10:19.405 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:10:19.657 INFO  obtain request for adding a doctor dr ajit 
+20:10:19.659 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:10:19.857 INFO  obtain request for adding a doctor dr ajit 
+20:10:19.859 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:10:20.057 INFO  obtain request for adding a doctor dr ajit 
+20:10:20.059 ERROR doctors validation failed: speciality: Path `speciality` is required.
+{"errors":{"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:11:15.451 INFO  obtain request for adding a doctor  
+20:11:15.454 ERROR doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Path `name` is required., qualification: Path `qualification` is required., speciality: Path `speciality` is required.
+{"errors":{"doctorNumber":{"name":"ValidatorError","message":"Path `doctorNumber` is required.","properties":{"message":"Path `doctorNumber` is required.","type":"required","path":"doctorNumber","value":null},"kind":"required","path":"doctorNumber","value":null},"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""},"qualification":{"name":"ValidatorError","message":"Path `qualification` is required.","properties":{"message":"Path `qualification` is required.","type":"required","path":"qualification","value":""},"kind":"required","path":"qualification","value":""},"speciality":{"name":"ValidatorError","message":"Path `speciality` is required.","properties":{"message":"Path `speciality` is required.","type":"required","path":"speciality","value":""},"kind":"required","path":"speciality","value":""}},"_message":"doctors validation failed","name":"ValidationError","message":"doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Path `name` is required., qualification: Path `qualification` is required., speciality: Path `speciality` is required."}
+ValidationError: doctors validation failed: doctorNumber: Path `doctorNumber` is required., name: Path `name` is required., qualification: Path `qualification` is required., speciality: Path `speciality` is required.
+    at model.Document.invalidate (D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2962:32)
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\document.js:2753:17
+    at D:\collabera\project\clinic-mgmt-app\server\node_modules\mongoose\lib\schematype.js:1325:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+20:11:29.930 INFO  obtain request for adding a doctor dr puja 
+20:11:30.069 INFO  a new doctor is added to the database with ID 62179919cc77ef8662c2bb50 
+20:11:39.675 INFO  obtain request for searching a doctor by its name undefined 
+20:11:43.654 INFO  obtain request for searching a doctor by its name undefined 
+20:11:43.777 INFO  obtain request for searching a doctor by its name undefined 
+20:11:51.091 INFO  obtain request for deleting a doctor by its ID [object Object] 
+20:11:51.206 INFO  Update the doctor information 
+20:11:51.207 INFO  one doctor info is updated to the database with ID 62179919cc77ef8662c2bb50 
+20:11:58.387 INFO  obtain request for deleting a doctor by its ID [object Object] 
+20:11:58.545 INFO  Update the doctor information 
+20:11:58.546 INFO  one doctor info is updated to the database with ID 62179919cc77ef8662c2bb50 
+20:12:00.848 INFO  obtain request for deleting a doctor by its ID [object Object] 
+20:12:00.992 INFO  Update the doctor information 
+20:12:00.993 INFO  one doctor info is updated to the database with ID 62179919cc77ef8662c2bb50 
+20:12:16.096 INFO  obtain request for searching a doctor by its name undefined 
+20:16:32.032 INFO  obtain request for searching a doctor by its name undefined 
+20:16:38.358 INFO  obtain request for searching a doctor by its name undefined 
+20:16:39.608 INFO  obtain request for searching a doctor by its name undefined 
+20:16:40.456 INFO  obtain request for searching a doctor by its name undefined 
