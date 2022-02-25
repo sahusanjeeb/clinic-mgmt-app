@@ -10,30 +10,27 @@ import {MemoryRouter} from 'react-router-dom'
 configure({ adapter: new Adapter() });
 
 
-describe('test for add doctor', () => {
+// describe('test for add doctor', () => {
 
-    test("check addDoctorContainer comes without any issues", () => {
-      render(<Provider store={store}><AddDoctorContainer mode="edit" /></Provider>,{wrapper: MemoryRouter});
-    });
+//     test("check addDoctorContainer comes without any issues", () => {
+//       render(<Provider store={store}><AddDoctorContainer mode="edit" /></Provider>,{wrapper: MemoryRouter});
+//     });
   
-  test('app has a single AddDoctorContainer component and has content....', () => {
-    const wrapper = mount(<Provider store={store}><AddDoctorContainer /></Provider>);
-    const someContent = <h1 style={{ textAlign: "center" }}>ADD NEW DOCTOR FORM</h1>
-      expect(wrapper.contains(someContent)).toEqual(true);
-  });
+//   test('app has a single AddDoctorContainer component and has content....', () => {
+//     const wrapper = mount(<Provider store={store}><AddDoctorContainer /></Provider>);
+//     const someContent = <h1 style={{ textAlign: "center" }}>ADD NEW DOCTOR FORM</h1>
+//       expect(wrapper.contains(someContent)).toEqual(true);
+//   });
   
-  test('add doctor has a 1 h1 element', () => {
-    var wrapper = mount(<Provider store={store}><AddDoctorContainer /></Provider>);
-    // use CSS selector to find all h1 element
-    const noOfh1Elements = wrapper.find('h1').length; // this will return an array
-    expect(noOfh1Elements).toEqual(1);
-  });
+//   test('add doctor has a 1 h1 element', () => {
+//     var wrapper = mount(<Provider store={store}><AddDoctorContainer /></Provider>);
+//     // use CSS selector to find all h1 element
+//     const noOfh1Elements = wrapper.find('h1').length; // this will return an array
+//     expect(noOfh1Elements).toEqual(1);
+//   });
   
-  test('app renders props are passed or not', () => {
-    var wrapper = mount(<Provider store={store}><AddDoctorContainer mode="edit" /></Provider>);
-    expect(wrapper.contains("HELLO")).toEqual(false);
-  });
-  });
+  
+//   });
   
   
   

@@ -9,7 +9,7 @@ function* searchDoctor(action) {
   const json = yield fetch("http://localhost:4000/doctors/search/speciality/" + action.speciality).then((response) =>
 
     response.json()
-  );
+  ).catch((err) => console.log(err));
   yield put({ type: "SEARCH_A_DOCTOR_SUCCESSFUL", json: json });
 }
 function* actionWatcher() {
@@ -24,7 +24,7 @@ function* deleteDoctor(action) {
   const json = yield fetch("http://localhost:4000/doctors/delete/" + action.doctorNumber).then((response) =>
 
     response.json()
-  );
+  ).catch((err) =>console.log(err));
   yield put({ type: "DELETE_DOCTOR_RESULTS", json: json });
 }
 function* actionWatcher2() {
@@ -52,7 +52,7 @@ function* addNewDoctor(action) {
     headers: {
       "Content-type": "application/json;chartset=UTF-8",
     },
-  }).then((res) => res.json());
+  }).then((res) => res.json()).catch((err) =>console.log(err));
 
   yield put({ type: "ADD_A_DOCTOR_SUCCESSFUL", serverMsg: serverResponse.msg, });
 }

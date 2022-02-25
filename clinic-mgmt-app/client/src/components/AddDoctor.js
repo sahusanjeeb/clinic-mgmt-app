@@ -1,7 +1,7 @@
 import '../styles/Table.css'
 import { useState } from 'react'
 import { useLocation } from "react-router";
-import { Col, Row, Container } from "@kunukn/react-bootstrap-grid";  
+// import { Col, Row, Container } from "@kunukn/react-bootstrap-grid";  
 
 
 const AddDoctor = (props) => {

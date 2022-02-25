@@ -56,7 +56,6 @@ const SearchDoctor = (props) => {
                     </tr>
                     {props.doctorData.searchResults ? props.doctorData.searchResults.map((item, key) => <tr><td> {item.doctorNumber}</td><td> {item.name}</td><td> {item.qualification}
                     </td><td>{item.speciality} </td><td><Link to={{pathname:"/doctors/edit/?doctorNumber="+item.doctorNumber+"&_id="+item._id+"&name="+item.name+"&qualification="+item.qualification+"&speciality="+item.speciality}}>EDIT</Link></td><td><button onClick={(e) => removeDoctor(e,item.doctorNumber)} >DELETE</button></td></tr>) : ""}                    
-
                 </table>
                 {props.doctorData.deleteDoctorSuccess ?  props.doctorData.deleteDoctorSuccess +  "search again to refresh the search results":""}
 
